@@ -9,7 +9,8 @@
   </script>
 </head>
 <body onload="loginForm()">
-  <form name="loginform" action="https://playground.kloudfuse.io/oauth2/sign_in?rd=/f" method="POST">
+  <form name="loginform" action="https://playground.kloudfuse.io/oauth2/sign_in" method="POST">
+    <input type="hidden" name="rd" value="/f" />
     <input type="hidden" name="username" value="kfuser" />
     <input type="hidden" name="password" value="kloudfuse" />
   </form>
